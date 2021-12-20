@@ -1,0 +1,91 @@
+/*  Google Fonts Link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Poppins:wght@100;200;300;400;500;700;800&display=swap');     
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background-color: #11101d;
+    z-index: 100;
+    transition: all 0.5s ease;
+}
+.sidebar .logo-mini{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.sidebar .logo-mini img{
+    min-width: 78px;
+    text-align: center;
+    line-height: 50px;
+    padding: 25px;
+}
+.sidebar .logo-mini .logo-nome{
+    font-family: 'Gabriela', sans-serif;
+    font-size: 23px;
+    color: #d4145a;
+    transition: 0.3s ease;
+    transition-delay: 0.1s;
+}
+.sidebar .logo-mini .logo-design{
+    font-size: 15px;
+    color: #d4145a;
+    font-weight: 200;
+    transition: 0.3s ease;
+    transition-delay: 0.1s;
+}
+.sidebar .nav-links{
+    height: 100%;
+    padding: 15px;
+}
+.sidebar .nav-links li{
+    position: relative;
+    list-style: none;
+    transition: all 0.4s ease;
+}
+.sidebar .nav-links li:hover{
+    background: #1d1b31;
+}
+.sidebar .nav-links li .icon-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidebar .nav-links li i{
+    position: relative;
+    list-style: none;
+    height: 50px;
+    min-width: 30px;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+}
+.sidebar .nav-links li a{
+    text-decoration: none;
+}
+.sidebar .nav-links li a .link_name{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+.sidebar .nav-links li .sub-menu{
+    padding: 6px 6px 14px 35px;
+    margin-top: -10px;
+    background-color: #1d1b31;
+}
+.sidebar .nav-links li .sub-menu a{
+    color: #fff;
+    font-size: 15px;
+    padding: 5px 0;
+}
