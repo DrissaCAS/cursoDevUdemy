@@ -1,0 +1,68 @@
+/*  Google Fonts Link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Poppins:wght@100;200;300;400;500;700;800&display=swap');     
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gabriela', serif;
+}
+
+body {
+   background: #00c2cb url('/img/fundo.png'); 
+}
+
+.capa img {
+    width: 920px;
+}
+.menu {
+    width: 900px;
+    background-color: #01686b;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+}
+
+.menu a {
+    padding: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+.conteudo {
+    width: 900px;
+    padding: 10px;
+    color: #014d50;
+    background-color: #00c2cb;
+}
+
+.conteudo h3{
+    font-size: 25px;
+    padding: 10px 0;
+}
+
+.conteudo p{
+    padding: 15px 0;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.conteudo img{
+    width: 890px;
+    align-items: center;
+    border: 10px solid #01686b;
+}
+
+.rodape {
+    width: 900px;
+    background-color: #01686b;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
