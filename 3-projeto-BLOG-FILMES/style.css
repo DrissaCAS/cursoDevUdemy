@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Poppins:wght@100;200;300;400;500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', serif;
+}
+
+body {
+    background-color: black;
+}
+
+.top {
+    background-color: #b1060f;
+    height: 180px;
+    text-align: center;
+    color: #f7c322;
+}
+
+.logo {
+    padding: 20px;
+    font-size: 60px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 20px;
+}
