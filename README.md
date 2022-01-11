@@ -12,4 +12,4 @@ Este repositório é voltado ao desenvolvimento das atividades e desafios propos
 
 - **PROJETO 3 - TECMOVIE**
 
-    Inicio do Projeto 3
+    O objetivo do Projeto 3 era criar um blog de Tecnologia utilizando HTML e CSS. Para melhorar os estudos estou fazendo um blog voltado a temas relacionados a Tecnologia e Filmes. 
