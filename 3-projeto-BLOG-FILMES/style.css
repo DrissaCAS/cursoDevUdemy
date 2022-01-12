@@ -29,10 +29,7 @@ body {
 .principal {
     width: 950px;
     margin: 0 auto;
-}
-
-.postagens, .lateral {
-    background: #f7c222;
+    padding: 15px;
 }
 
 .postagens {
@@ -43,15 +40,24 @@ body {
 .lateral {
     width: 240px;
     float: right;
+    background: #f7c322;
+    border-radius: 12px;
+    padding: 10px;
 }
 
 .post {
     padding: 20px;
     margin-bottom: 20px;
+    background: #f7c322;
+    border-radius: 12px;
 }
 
 .post img{
     width: 620px;
+}
+
+.post p {
+    text-align: justify;
 }
 
 /*
@@ -63,6 +69,8 @@ body {
     background-color: #fff;
     text-align: center;
     padding: 15px;
+    margin-bottom: 0;
+    border-radius: 12px 12px 0 0;
 }
 
 /*
@@ -74,13 +82,21 @@ a {
 }
 
 a:link, a:visited {
+    color: #b1060f;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.menu a:link, .menu a:visited {
     color: #fff;
     padding: 8px 12px;
 }
 
-a:hover {
+.menu a:hover {
     color: #b1060f;
     background-color: #fff;
+    text-decoration: none;
 }
 
 /*
@@ -92,6 +108,18 @@ h1 {
     font-size: 60px;
 }
 
+h2 {
+    color: #b1060f;
+}
+
 .branco {
     color: #fff;
+}
+
+.data-post {
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    display: block;
 }
