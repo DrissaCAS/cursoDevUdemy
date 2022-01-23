@@ -40,9 +40,19 @@ body {
 .lateral {
     width: 240px;
     float: right;
+}
+
+.conteudo-lateral {
     background: #f7c322;
+    padding: 20px;
     border-radius: 12px;
-    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.conteudo-lateral h3{
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .post {
@@ -56,8 +66,14 @@ body {
     width: 620px;
 }
 
-.post p {
+.post p, .post-lateral p {
     text-align: justify;
+}
+
+.post-lateral {
+    font-size: 14px;
+    padding: 5px;
+    border-bottom: 1px dotted #f4f4f4;
 }
 
 /*
@@ -108,8 +124,12 @@ h1 {
     font-size: 60px;
 }
 
-h2 {
+h2, h3 {
     color: #b1060f;
+}
+
+.centralizar {
+    text-align: center;
 }
 
 .branco {
